@@ -8,7 +8,7 @@ Simplemente visita la página web, cuenta con mobile responsive. Puedes agregar 
 
 ## Capturas de pantalla
 
-![Captura de pantalla 1]
+![Septy 7 - Google Chrome 10_02_2024 11_02_45 p  m](https://github.com/JohanAndres1/Septy/assets/116041221/6d0148cd-fba8-4154-9920-2f037c361029)
 
 
 ## Contribución
