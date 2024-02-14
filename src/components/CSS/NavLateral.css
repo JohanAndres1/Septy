@@ -1,0 +1,29 @@
+.main > div.nav-aside {
+    grid-area: aside;
+    background-color: var(--bs-white);
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    text-align: start;
+    gap: 1rem;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    height: calc(100vh - 60px);
+}
+
+div.nav-aside .nav-link {
+    color: var(--bs-black);
+    margin: 5px 0;
+}
+
+div.nav-aside > span {
+    width: 80%;
+    height: 1px;
+    background-color: var(--bs-gray-400);
+}
+
+@media (max-width: 992px) {     
+    .main > div.nav-aside {
+        display: none;
+    }
+}

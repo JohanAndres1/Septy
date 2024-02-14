@@ -1,0 +1,112 @@
+.container-products {
+    grid-area: products;
+    height: calc(100vh - 60px);
+    margin: 0 50px;
+}
+
+h1.title {
+    margin: 20px 0;
+}
+
+ul.row {
+    gap: 1rem;
+    padding: 0;
+    margin: 0;
+    height: calc(100vh - 150px);
+}
+ul.row>* {
+    margin: 0;
+    padding: 0;
+}
+
+main li.card {
+    border-radius: 15px;
+    overflow: hidden;
+    height: min-content;
+}
+
+img.card-img-top {
+    background-color: var(--bs-white);
+    object-fit: cover;
+    aspect-ratio: 10/5;
+    object-position: bottom;
+}
+
+div.card-body {
+    text-align: start;
+    padding: 10px;
+}
+
+.card-body > ul {
+    padding-left: 1.5rem;
+}
+
+p.card-text {
+    font-size: 12.5px;
+    text-indent: 0%;
+    text-align: start;
+}
+
+li.card-li {
+    list-style: disc;
+    font-size: 12px;
+}
+
+p.card-price {
+    font-size: 13.5px;
+    color: var(--bs-primary);
+    font-weight: 500;
+    margin: 0;
+}
+p.card-discount {
+    font-size: 13.5px;
+    color: var(--bs-secondary);
+    text-decoration-line: line-through;
+    margin: 0;
+}
+
+div.card--div-button {
+    padding-bottom: 10px;
+}
+
+button.btn {
+    font-size: 14px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.card-group {
+    justify-content: space-evenly;
+    margin: 9px 0;
+}
+
+@media (min-width: 768px) {
+    li.card {
+        width: 31.7388%
+    }
+}
+
+@media (min-width: 992px) {
+    li.card {
+        width: 45%;   
+    }
+    ul.row {
+        overflow-y: scroll;
+        scrollbar-color: #0000006b #ffffff00;
+        scroll-snap-type: none;
+    }
+    .container-products {
+        margin: 0 100px;
+    }
+}
+
+@media (min-width: 1224px) {
+    li.card {
+        width: 32%;   
+    }
+    ul.row {
+        overflow-y: auto;
+        scrollbar-color: #0000006b #ffffff00;
+        scroll-snap-type: none;
+    }
+}

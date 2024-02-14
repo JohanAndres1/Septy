@@ -1,0 +1,37 @@
+{
+  "products": [
+    {
+      "id": 6,
+      "category": "consulta",
+      "user": "/",
+      "title": "Ensure",
+      "description": "Plan sin couta de consultas donde podrás conocer tus clientes a detalle. No tendrás que preocuparte por facturación fija del servicio, acá solo pagas por lo que consultas",
+      "price": 1190,
+      "discount": "1490",
+      "thumbnail": "https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGVzcGFjaWFsfGVufDB8fDB8fHww",
+      "characteristics": ["Fuentes basisc disponibles para consulta", "Descarga de resultados individuales", "Un llavero"]
+    },
+    {
+      "id": 7,
+      "category": "clientes",
+      "user": "x 1K ",
+      "title": "Nature",
+      "description": "Plan 1.000 consultas disponibles al mes. Tendrás a tu disposición una variedad de datos y modelos para conocer a profundidad tus clientes, animate con Nature a conocer la naturaleza de tus clientes",
+      "price": 1100,
+      "discount": "1900",
+      "thumbnail": "https://images.unsplash.com/photo-1699417824045-5c9ffdc32740?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "characteristics": ["Fuentes mid-tier disponibles para consulta", "Descarga de resultados masivos", "Linea de Customer Sucess directa"]
+    },
+    {
+      "id": 8,
+      "category": "clientes",
+      "user": "x 5K ",
+      "title": "Future",
+      "description": "Plan de 5.000 consultas disponibles al mes. Podrás realizar consultas masivas, integrar nuestros servicios de consultas automatizadas y obtener repotes basados en AI  de tus clientes",
+      "price": 3900,
+      "discount": "5000",
+      "thumbnail": "https://images.unsplash.com/photo-1560390816-3400050aab0b?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "characteristics": ["Fuentes signature disponibles para consulta", "Descarga de resultados, reportes y comprobantes", "Acceso a integraciones y automatizaciones"]
+    }
+  ]
+}
